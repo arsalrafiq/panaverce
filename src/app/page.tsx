@@ -3,10 +3,7 @@ import Footer from "@/components/footer/footer";
 import Hero from "@/components/herosection/hero";
 import Nav from "@/components/navbar/nav";
 import Programmes from "@/components/programoutcome/programes";
-
 import Tracks from "@/components/Tracks/Tracks";
-import Meta from "./pages/meta/page";
-
 
 export default function Home() {
   return (
@@ -17,7 +14,7 @@ export default function Home() {
 <Tracks/>
 <Programmes/>
 <Footer/>
-<Meta/>
+
 </div>
   );
 }
